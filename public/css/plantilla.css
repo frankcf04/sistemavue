@@ -32,3 +32,11 @@
     opacity: 0;
 }
 
+.btnWidth{
+    width: 49%;
+}
+
+.el-select{
+    width: 100%;
+
+}

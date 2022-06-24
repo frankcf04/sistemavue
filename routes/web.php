@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/{optional?}', function () {
     return view('app');
 })->name('basepath');
+
+
+Route::get('/administracion/usuario/getListarRolPermisosByUsuario','Administracion\UsersController@getListarUsuarios');
